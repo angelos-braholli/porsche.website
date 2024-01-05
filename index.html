@@ -327,12 +327,149 @@
 
             <!--==================== FEATURED ====================-->
             <section class="featured section" id="featured">
-                
+                <h2 class="section__title">
+                    Featured Luxury Cars
+                </h2>
+
+                <div class="featured__container container">
+                    <ul class="featured__filters">
+                        <li>
+                            <button class="featured__item active-featured" data-filter="all" >
+                                <span>All</span>
+                            </button>
+                        </li>
+
+                        <li>
+                            <button class="featured__item" data-filter=".tesla">
+                                <img src="images/logo3.png" alt="">
+                            </button>
+                        </li>
+
+                        <li>
+                            <button class="featured__item" data-filter=".audi">
+                                <img src="images/logo2.png" alt="">
+                            </button>
+                        </li>
+
+                        <li>
+                            <button class="featured__item" data-filter=".porsche">
+                                <img src="images/logo1.png" alt="">
+                            </button>
+                        </li>
+
+                    </ul>
+
+                    <div class="featured__content grid">
+
+
+                        <article class="featured__card mix tesla">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Tesla</h1>
+
+                            <h3 class="featured__subtitle">Model X</h3>
+
+                            <img src="images/featured1.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">$98,900</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+                        </article>
+                        <!------------------------------------------------------------>
+                        <article class="featured__card mix tesla">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Tesla</h1>
+
+                            <h3 class="featured__subtitle">Model 3</h3>
+
+                            <img src="images/featured2.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">$45,900</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+                        </article>
+                        <!------------------------------------------------------------->
+                        <article class="featured__card mix audi">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Audi</h1>
+
+                            <h3 class="featured__subtitle">E-tron</h3>
+
+                            <img src="images/featured3.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">$175,900</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+                        </article>
+                        <!------------------------------------------------------------>
+                        <article class="featured__card mix porsche">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Porsche</h1>
+
+                            <h3 class="featured__subtitle">Boxter 987</h3>
+
+                            <img src="images/featured4.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">$126,900</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+                        </article>
+                        <!-------------------------------------------------------------->
+                        <article class="featured__card mix porsche">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Porsche</h1>
+
+                            <h3 class="featured__subtitle">Panamera</h3>
+
+                            <img src="images/featured5.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">$126,900</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+                        </article>
+                        <!-------------------------------------------------------------->
+
+                    </div>
+                </div>
             </section>
 
             <!--==================== OFFER ====================-->
             <section class="offer section">
-                
+                   <div class="offer__container container grid">
+                    <img src="images/offer-bg.png" alt="" class="offer__bg">
+
+                    <div class="offer__data">
+                        <h2 class="section__title offer__title">
+                            Do You Want To Receive <br> Special Offers?
+                        </h2>
+
+                        <p class="offer__description">
+                            Be the first to receive all the information about our
+                            products and new cars by email by subscribing to our 
+                            mailing list.
+                        </p>
+
+                        <a href="#" class="button">
+                            Subscribe Now
+                        </a>
+                    </div>
+
+                    <img src="images/offer.png" alt="" class="offer__img">
+                   </div>
             </section>
 
             <!--==================== LOGOS ====================-->
@@ -357,7 +494,7 @@
         <script src="swiper-bundle.min.js"></script>
 
         <!--=============== MIXITUP JS ===============-->
-        <script src=""></script>
+        <script src="mixitup.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
         <script src="script.js"></script>
